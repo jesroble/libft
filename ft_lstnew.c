@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/16 18:21:46 by jesroble          #+#    #+#             */
-/*   Updated: 2024/01/26 00:01:16 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:48:45 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,19 +23,3 @@ t_list	*ft_lstnew(void *content)
 	newnode->next = NULL;
 	return (newnode);
 }
-
-/* int main (void)
-{
-	t_list	*newnode;
-	int		content = 65;
-
-	newnode = ft_lstnew(&content);
-	if (!newnode)
-	{
-		printf("no hay nodo");
-		return (1);
-	}
-	printf("%d", *(int *)(newnode->content));
-	free(newnode);
-	return (0);
-} */

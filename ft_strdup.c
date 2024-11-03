@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/11 17:00:55 by jesroble          #+#    #+#             */
-/*   Updated: 2024/01/21 18:25:25 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:50:02 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,13 +33,3 @@ char	*ft_strdup(const char *s1)
 	*s2 = '\0';
 	return (s3);
 }
-
-/* int	main(void)
-{
-	char s1[] = "encarajotao";
-	char s2[] = ft_strdup(s1);
-
-	free(s2);
-	printf("%s\n", s2);
-	printf("%s", strdup(s1));
-} */

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/16 16:54:06 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/16 17:04:17 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:49:34 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,3 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, "\n", 1);
 }
-
-/* int main	(void)
-{
-	char	s[] = "hola mundo, que tal";
-
-	ft_putendl_fd(s, 1);
-} */

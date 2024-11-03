@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 21:36:49 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/06 17:42:02 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:47:36 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,12 +19,3 @@ int	ft_isprint(int c)
 		return (0);
 	return (1);
 }
-
-/* int	main(void)
-{
-	char c = 'k';
-	int	n;
-
-	n = ft_isprint(c);
-	printf("%d", ft_isprint(c));
-} */

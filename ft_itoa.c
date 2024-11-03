@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 15:07:43 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/15 18:32:54 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:47:43 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,12 +56,3 @@ char	*ft_itoa(int n)
 	}
 	return (itoa);
 }
-
-/* int	main(void)
-{
-	int		n = -2147483648;
-	char	*itoa = ft_itoa(n);
-
-	printf("%s", itoa);
-	free(itoa);
-} */

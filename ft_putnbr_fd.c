@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/16 17:11:13 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/16 17:37:10 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:49:41 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,3 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putchar_fd('0' + n % 10, fd);
 	}
 }
-
-/* int main	(void)
-{
-	ft_putnbr_fd(42, 1);
-}
- */

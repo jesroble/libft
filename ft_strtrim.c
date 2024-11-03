@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 15:05:23 by jesroble          #+#    #+#             */
-/*   Updated: 2024/01/05 12:40:03 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:51:04 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,13 +58,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	sf[i] = '\0';
 	return (sf);
 }
-
-/* int	main(void)
-{
-	char	*s1 = "el que saca la pistola es pa usarla";
-	char	*set = "vayam";
-	char	*sf = ft_strtrim(s1, set);
-
-	printf("%s", sf);
-	free(sf);
-} */

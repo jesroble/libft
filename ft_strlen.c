@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/05 11:41:45 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/06 17:42:37 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:50:34 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,3 @@ size_t	ft_strlen(const char *s)
 	}
 	return (c);
 }
-
-/* int	main(void)
-{
-	char s[] = "hay 17 caracteres";
-	printf("%lu", ft_strlen(s));
-} */

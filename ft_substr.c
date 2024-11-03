@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 15:03:33 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/15 18:19:12 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:51:09 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,14 +36,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(substring, s + start, len + 1);
 	return (substring);
 }
-
-/* int	main(void)
-{
-	char	s[] = "encarajotao";
-	unsigned int start = 4;
-	size_t len = 2;
-	char	*substring = ft_substr(s, start, len);
-	
-	printf("%s", ft_substr(s, start, len));
-	free(substring);
-} */

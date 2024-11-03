@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 19:37:29 by jesroble          #+#    #+#             */
-/*   Updated: 2024/01/05 12:49:32 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:47:21 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,12 +30,3 @@ int	ft_isalpha(int c)
 		return (0);
 	return (1);
 }
-
-/* int	main(void)
-{
-	char	c = '#';
-	int n;
-
-	n = ft_isalpha(c);
-	printf("%d", ft_isalpha(c));
-} */

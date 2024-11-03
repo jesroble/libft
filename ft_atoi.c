@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 20:53:20 by jesroble          #+#    #+#             */
-/*   Updated: 2024/01/31 16:59:05 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:47:00 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,11 +36,3 @@ int	ft_atoi(const char *str)
 	}
 	return (result * sign);
 }
-
-/* int	main(void)
-{
-	char str[] = "  6  223456897";
-
-	printf("%d\n", ft_atoi(str));
-	printf("%d\n", atoi(str));
-} */

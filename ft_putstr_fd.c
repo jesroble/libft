@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/16 16:07:30 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/16 16:49:37 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:49:47 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,3 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-
-/* int main	(void)
-{
-	char	s[] = "hola mundo, que tal";
-
-	ft_putstr_fd(s, 1);
-} */

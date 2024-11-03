@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 14:10:51 by jesroble          #+#    #+#             */
-/*   Updated: 2024/01/20 19:14:57 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:50:54 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,14 +37,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-
-/* int	main(void)
-{
-	char	haystack[] = "gfdsgf";
-	char	needle[] = "ds";
-	size_t	len = 5;
-
-	printf("Using ft_strnstr: %p\n", ft_strnstr(haystack, needle, len));
-
-	printf("Using strnstr: %p\n", strnstr(haystack, needle, len));
-} */

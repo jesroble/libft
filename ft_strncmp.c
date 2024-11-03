@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/28 13:43:26 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/11 13:30:11 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:50:49 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,14 +25,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-
-/* int	main(void)
-{
-	char s1[] = "12345";
-	char s2[] = "12345";
-	size_t n;
-
-	n = -1;
-	printf("%d\n", ft_strncmp(s1, s2, n));
-	printf("%d", strncmp(s1, s2, n));
-} */

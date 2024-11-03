@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 09:09:19 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/19 16:31:14 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:49:09 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,12 +29,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-
-/* int	main(void)
-{
-	char dst[] = "\0";
-	char src[] = "\0";
-	size_t n = 0;
-
-	printf("%s\n", ft_memcpy(dst, src, n));
-} */

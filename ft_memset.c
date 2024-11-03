@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 21:52:32 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/08 17:41:50 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:49:23 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,13 +25,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-
-/* int	main(void)
-{
-	char b[] = "le falta un poco de crotolamo";
-	int c = 'w';
-	size_t len = 8;
-
-	ft_memset(b, c, len);
-	printf("%s\n", b);
-} */

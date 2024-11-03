@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 12:09:33 by jesroble          #+#    #+#             */
-/*   Updated: 2024/01/20 16:45:28 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:48:59 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,12 +29,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-
-/* int	main(void)
-{
-	char s[] = "fakin burpies";
-	int c = 'b';
-	size_t n = 7;
-
-	printf("%s", (char *)ft_memchr(s, c, n));
-} */

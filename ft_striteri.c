@@ -3,20 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/15 21:52:21 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/15 22:20:23 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:50:14 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/* void	f(unsigned int c, char *s)
-{
-	if (*s >= 'a' && *s <= 'z')
-		*s = (char) ft_toupper(*s);
-} */
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
@@ -31,12 +25,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		c++;
 	}
 }
-
-/* int main	(void)
-{
-	char	s[] = "hola mundo";
-
-	ft_striteri(s, f);
-	printf("%s", s);
-	return (0);
-} */

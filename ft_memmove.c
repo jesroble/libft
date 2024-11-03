@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/01 15:46:56 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/19 16:32:57 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:49:15 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,13 +41,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-
-/* int	main(void)
-{
-	char dst[] = "feifijsfjsfjddeddfdkodknfse";
-	char src[] = "euhfhuehfhushufdsfjiodfsfes";
-	size_t len = 28;
-
-	printf("%p\n", ft_memmove(dst, src, len));
-	printf("%p\n", memmove(dst, src, len));
-} */

@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_bero.c                                          :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 04:25:57 by jesroble          #+#    #+#             */
-/*   Updated: 2024/01/05 12:11:58 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:47:04 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,3 @@ void	*ft_bzero(void *s, size_t n)
 	ft_memset(s, 0, n);
 	return (0);
 }
-
-/* int	main(void)
-{
-	char s[] = "le falta un poco de crotolamo";
-	size_t n = 9;
-
-	printf("%s\n", ft_bzero(s, n));
-} */

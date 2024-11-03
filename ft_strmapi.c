@@ -3,22 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/15 20:38:27 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/18 16:27:39 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:50:45 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/* char	f(unsigned int c, char s)
-{
-	if (s >= 'a' && s <= 'z')
-		return ((char) ft_toupper(s));
-	else
-		return (s);
-} */
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
@@ -39,13 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	mapi[c] = '\0';
 	return (mapi);
 }
-
-/* int main	(void)
-{
-	char	s[] = "hola mundo";
-	char	*mapi = ft_strmapi(s, f);
-
-	printf("%s", mapi);
-	free(mapi);
-	return (0);
-} */

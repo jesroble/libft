@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 01:02:10 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/06 17:41:54 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:47:25 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,12 +19,3 @@ int	ft_isascii(int c)
 		return (0);
 	return (1);
 }
-
-/* int	main(void)
-{
-	char c = '+';
-	int n;
-
-	n = ft_isascii(c);
-	printf("%d", ft_isascii(c));
-} */

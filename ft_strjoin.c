@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 15:04:48 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/13 15:34:12 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:50:20 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,13 +38,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	s3[c] = '\0';
 	return (s3);
 }
-
-/* int	main(void)
-{
-	char	*s1 = "el que saca la psitola es pa usarla";
-	char	*s2 = "el que la saca pa enseñarla es parguela";
-	char	*s3 = ft_strjoin(s1, s2);
-
-	printf("%s", s3);
-	free(s3);
-} */

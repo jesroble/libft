@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstclear.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/18 15:07:04 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/18 15:49:51 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:48:06 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,26 +23,3 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 		*lst = freenode;
 	}
 }
-
-/* int main	(void)
-{
-	t_list *list = NULL;
-	int *content1 =  malloc(sizeof(int));
-	int *content2 =  malloc(sizeof(int));
-	int *content3 =  malloc(sizeof(int));
-	*content1 = 42;
-	*content2 = 43;
-	*content3 = 6;
-
-	t_list *node1 = ft_lstnew(&content1);
-	t_list *node2 = ft_lstnew(&content2);
-	t_list *node3 = ft_lstnew(&content3);
-
-	ft_lstadd_front(&list, node1);
-	ft_lstadd_front(&list, node2);
-	ft_lstadd_front(&list, node3);
-
-	printf("%d", *(int *)(list->content));
-	ft_lstclear(&list, del);
-}
- */

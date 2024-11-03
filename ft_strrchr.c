@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 11:03:43 by jesroble          #+#    #+#             */
-/*   Updated: 2024/09/24 12:15:16 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:50:59 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,12 +31,3 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *) &s[n]);
 	return (i);
 }
-
-/* int	main(void)
-{
-	char s[] = "fakin bukpies";
-	int c = 'k';
-
-	printf("%s\n", ft_strrchr(s, c));
-	printf("%s", strrchr(s, c));
-} */

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 09:20:35 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/06 17:42:57 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:51:21 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,12 +22,3 @@ int	ft_toupper(int c)
 	}
 	return (c);
 }
-
-/* int	main(void)
-{
-	int	c = 'm';
-	char	n;
-
-	n = ft_toupper(c);
-	printf("%c", n);
-} */

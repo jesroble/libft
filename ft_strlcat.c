@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jesroble <jesroble@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jerope200 <jerope200@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/01 11:59:22 by jesroble          #+#    #+#             */
-/*   Updated: 2023/12/11 16:40:47 by jesroble         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:50:24 by jerope200        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,14 +33,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[i + td] = '\0';
 	return (td + ts);
 }
-
-/* int	main(void)
-{
-	char dst[] = "como si fuera ayer, bajo la lluvia,";
-	char src[] = "donde se ven los hombres";
-	size_t	dstsize;
-
-	dstsize = 0;
-	printf("%zu\n", ft_strlcat(dst, src, dstsize));
-	printf("%zu", strlcat(dst, src, dstsize));
-} */
